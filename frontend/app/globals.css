@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base layer for the academic interface. Serif is reserved for lesson
+   reading content; the application chrome stays in clean sans. */
+@layer base {
+  body {
+    @apply bg-paper text-ink font-sans text-[15px] leading-relaxed antialiased;
+  }
+  a {
+    @apply text-ink underline underline-offset-2;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block rounded border border-line bg-paper px-4 py-2 text-sm font-medium text-ink cursor-pointer no-underline;
+  }
+  .btn-primary:hover {
+    @apply bg-hover border-[#bdbdb7];
+  }
+  .btn-secondary {
+    @apply inline-block rounded border border-line bg-transparent px-4 py-2 text-sm font-medium text-ink cursor-pointer no-underline;
+  }
+  .btn-secondary:hover {
+    @apply bg-hover border-[#bdbdb7];
+  }
+  .badge {
+    @apply inline-block rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider whitespace-nowrap;
+  }
+  .data-table {
+    @apply w-full border-collapse text-sm;
+  }
+  .data-table th {
+    @apply bg-wash text-left text-[13px] font-semibold px-3 py-2.5 border-b border-line;
+  }
+  .data-table td {
+    @apply px-3 py-2.5 border-b border-line align-middle;
+  }
+  .field-label {
+    @apply block text-sm font-semibold mb-1.5;
+  }
+  .field-input {
+    @apply w-full rounded border border-line bg-paper px-3 py-2.5 text-sm text-ink;
+  }
+  .field-input:focus {
+    @apply outline-ink border-ink;
+    outline-width: 2px;
+    outline-offset: 1px;
+  }
+}

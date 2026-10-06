@@ -1,0 +1,6 @@
+Percentages study guide
+
+1. Percent means per hundred: 37% = 37/100 = 0.37.
+2. Percent to decimal: move the point two places left.
+3. To find x% of a quantity, multiply by x/100.
+4. Estimate first: 20% of 450 is about 450/5 = 90.

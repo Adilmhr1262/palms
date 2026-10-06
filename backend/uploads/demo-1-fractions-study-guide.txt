@@ -1,0 +1,6 @@
+Fractions study guide
+
+1. A fraction a/b means a parts out of b equal parts.
+2. Multiply or divide top and bottom by the same number to get an equivalent fraction.
+3. Always simplify answers to lowest terms.
+4. To add fractions, first find a common denominator.

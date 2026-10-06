@@ -1,0 +1,6 @@
+Basic algebra study guide
+
+1. A variable stands for an unknown number.
+2. Translate words to symbols: 'twice a number plus three' is 2x + 3.
+3. Solve with inverse operations, keeping both sides balanced.
+4. Always check by substituting the answer back.
